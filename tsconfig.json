@@ -1,0 +1,38 @@
+/* To learn more about this file see: https://angular.io/config/tsconfig. */
+{
+    "compileOnSave": false,
+    "compilerOptions": {
+        "allowUnreachableCode": false,
+        "allowUnusedLabels": false,
+        "alwaysStrict": true,
+        "baseUrl": "./",
+        "declaration": false,
+        "esModuleInterop": true,
+        "experimentalDecorators": true,
+        "forceConsistentCasingInFileNames": true,
+        "importHelpers": true,
+        "lib": [
+            "es2018",
+            "dom"
+        ],
+        "module": "es2020",
+        "moduleResolution": "node",
+        "newLine": "lf",
+        "noFallthroughCasesInSwitch": true,
+        "noImplicitOverride": true,
+        "noImplicitReturns": true,
+        "noImplicitThis": true,
+        "noUnusedLocals": true,
+        "outDir": "./dist/out-tsc",
+        "removeComments": true,
+        "sourceMap": false,
+        "strictBindCallApply": true,
+        "strictNullChecks": true,
+        "target": "ES2022",
+        "useDefineForClassFields": false,
+        "useUnknownInCatchVariables": true
+    },
+    "exclude": [
+        "cypress.config.ts"
+    ]
+}

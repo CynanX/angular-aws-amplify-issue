@@ -1,0 +1,6 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import "bootstrap/dist/css/bootstrap.css";
+@import "datatables.net-bs5/css/dataTables.bootstrap5.css";
+@import "datatables.net-buttons-dt/css/buttons.dataTables.css";
+@import "@fortawesome/fontawesome-free/css/all.css";

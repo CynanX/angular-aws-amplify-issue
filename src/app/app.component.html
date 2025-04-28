@@ -1,0 +1,17 @@
+<amplify-authenticator [hideSignUp]="true">
+    <ng-template amplifySlot="header">
+        <div style="padding: var(--amplify-space-large); text-align: center">
+            <img
+                alt="CDL logo"
+                class="amplify-image"
+                src="assets/img/logo.png"
+            />
+        </div>
+    </ng-template>
+
+    <ng-template amplifySlot="authenticated">
+        <div id="wrapper-entire-window">
+            <router-outlet id="routerOutlet"></router-outlet>
+        </div>
+    </ng-template>
+</amplify-authenticator>
